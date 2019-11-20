@@ -26,7 +26,7 @@ if (list[k] < min) min = list[k];
 if (list[k] > max) max = list[k];
 
 }
-double diff = (max + min) ; 
+double diff = (max + min) ; // soma os minimo e maior para ser subtraido
 double media = (soma - diff)/(n-2);
 return media;
 
