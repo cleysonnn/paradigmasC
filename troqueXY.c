@@ -7,9 +7,9 @@ void trocarXY(char *palavra , int pos );
 int main(){
 
 int pos = 0;
-char palavra[] = "yyyyxxxxxxxxjjbjbjbxxxxxkjbyyyy";
+char palavra[] = "cleyson";
 trocarXY(palavra,pos);
-printf("%s" , palavra);
+
 return 0;
 }
 

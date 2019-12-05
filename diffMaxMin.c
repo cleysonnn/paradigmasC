@@ -4,7 +4,7 @@ int diffMaxMin(int list[] , int n);
 
 int main(){
 int lista[] = {5,6,4,8,3,2,4,9};
-printf("%d \n",diffMaxMin(lista,8));
+printf("a diferença do max promin foi de :  %d \n",diffMaxMin(lista,8));
 
 return 0;
 }

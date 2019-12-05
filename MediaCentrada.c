@@ -3,8 +3,8 @@
 double mediaCentrada(double list[] , int n);
 
 int main(){
-double lista[] = {10,2,5,5.5,9.1};
-printf("%.2f \n", mediaCentrada(lista , 5));
+double lista[] = {6,2,5,5.5,9.4};
+printf("a media centrada foi de : %.2f \n", mediaCentrada(lista , 5));
 return 0;
 }
 
