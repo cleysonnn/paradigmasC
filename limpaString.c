@@ -19,8 +19,10 @@ if (palavra[pos] == palavra[pos+1]){
     palavra[pos+1] = palavra[pos+2];
     limpaString(palavra,pos+1);
     }
+if (palavra[pos] == palavra[pos-1]){
+    palavra[pos] = palavra[pos+1];
+    limpaString(palavra,pos+1);
+    }
 limpaString(palavra,pos+1);
-
-    
 
 }
